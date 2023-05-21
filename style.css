@@ -50,14 +50,31 @@ a:hover {
 .top-container{
     background: #E3F4F4;
     position: relative;
-    padding-top: 100px;
 }
 
+.top-banner {
+    padding-top: 100px
+}
 .heading-maham {
     font-size: 5.625rem;
     margin-bottom: 0px;
 }
 
+/*
+.navbar-brand {
+    padding-left: 80px;
+}
+*/
+
+.nav-item {
+    padding: 0 18px;
+/*    color: #088395;*/
+}
+
+.nav-link {
+    color: #088395;
+    font-size: 1.5rem;
+}
 .middle-container {
     margin-top: 100px 0;
 }
@@ -82,7 +99,7 @@ a:hover {
 .bottom-cloud {
     position: absolute;
     left: 70%;
-    bottom: 250px;
+    bottom: 200px;
     width: 300px;
 }
 
@@ -129,6 +146,9 @@ a:hover {
     font-size: 0.75rem;
     margin: 20px auto 0px;
 }
+
+
+
 /**************ID Selectors*****************/
 
 
